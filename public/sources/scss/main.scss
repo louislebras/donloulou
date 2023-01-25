@@ -1,0 +1,26 @@
+@import "./fonts", "./footer", "./header", "./heading", "./nav", "./typography",
+  "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: $background;
+  font-family: "Stamina";
+  position: relative;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 20px);
+  //   border: 1px solid red;
+  padding: 0px 10px 10px 10px;
+  position: relative;
+  padding-bottom: 200vh;
+}

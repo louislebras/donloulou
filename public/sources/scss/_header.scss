@@ -1,0 +1,39 @@
+header {
+  //   border: 1px solid green;
+  position: fixed;
+  left: 10px;
+  top: 7px;
+  //   right: 10px;
+  width: calc(100vw - 20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 88888;
+
+  nav {
+    width: calc(50% - 5px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    a {
+      margin-right: 3.5vw;
+    }
+  }
+
+  .second-header {
+    opacity: 0;
+    transition: 0.3s ease;
+    z-index: 999999 !important;
+    margin-left: 60px;
+    img {
+      height: 16px !important;
+      margin-left: calc(10vw - 10px);
+    }
+  }
+}
+
+.darkHeader {
+  opacity: 1 !important;
+  transition: 0.3s ease;
+  margin-left: 0px !important;
+}

@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Stamina";
+  src: url("../../content/fonts/spatium.woff2") format("woff2"),
+    url("../../content/fonts/spatium.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Stamina";
+  src: url("../../content/fonts/spatium-bold.woff2") format("woff2"),
+    url("../../content/fonts/spatium-bold.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Stamina Light";
+  src: url("../../content/fonts/staminalight.woff2") format("woff2"),
+    url("../../content/fonts/staminalight.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Stamina Light Italic";
+  src: url("../../content/fonts/staminalightitalic.woff2") format("woff2"),
+    url("../../content/fonts/staminalightitalic.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
