@@ -6,3 +6,34 @@ $(".container-hover-loulou").hover(
     $(".container-image-hover-heading").removeClass("hover-donloulou");
   }
 );
+
+$(".link-stamina").hover(
+  function () {
+    $(".container-img-links-heading").addClass("appear-image-heading-stamina");
+  },
+  function () {
+    $(".container-img-links-heading").removeClass(
+      "appear-image-heading-stamina"
+    );
+  }
+);
+
+$(".link-emk").hover(
+  function () {
+    $(".container-img-links-heading").addClass("appear-image-heading-emk");
+  },
+  function () {
+    $(".container-img-links-heading").removeClass("appear-image-heading-emk");
+  }
+);
+
+$(".link-openai").hover(
+  function () {
+    $(".container-img-links-heading").addClass("appear-image-heading-openai");
+  },
+  function () {
+    $(".container-img-links-heading").removeClass(
+      "appear-image-heading-openai"
+    );
+  }
+);
