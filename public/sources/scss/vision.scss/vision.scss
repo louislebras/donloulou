@@ -1,0 +1,128 @@
+header {
+  .second-header {
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+
+    &.darkHeader {
+      opacity: 1;
+      transform: translate3d(0px, 0, 0);
+    }
+  }
+}
+
+.heading-vision {
+  position: relative;
+  h1 {
+    padding-left: calc(8.33vw - 10px);
+    width: 100%;
+    transform: translate3d(0px, 0, 0);
+    margin-top: 20px;
+  }
+  p {
+    margin-top: 25vh;
+    width: 45%;
+    margin-left: calc(50vw - 5px);
+  }
+
+  img {
+    width: calc(100vw - 0px);
+    margin-left: -10px;
+    margin-top: 10px;
+    height: 50vh;
+    object-fit: cover;
+  }
+}
+
+.vision-journal-wrapper {
+  padding-left: calc(8.33vw - 10px);
+  .titles-vision {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+
+    h2 {
+      width: fit-content;
+    }
+
+    .second-vision-title {
+      width: calc(66.64vw - 15px);
+    }
+  }
+}
+
+.container-text-vision {
+  display: flex;
+  padding-left: calc(25vw + 5px);
+}
+
+.wrapper-texts-wrapper {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  p {
+    width: calc(16.66vw + 0px);
+    // margin-right: 30px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  header {
+    .second-header {
+      left: 0px;
+
+      width: 100vw;
+      padding: 0px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .heading-vision {
+    h1 {
+      padding-left: 0;
+      margin-top: 30px;
+      //   border: 1px solid red;
+      text-align: center;
+    }
+
+    p {
+      margin-left: 0;
+
+      text-align: center;
+      margin-top: 3vh;
+      width: 100%;
+    }
+
+    img {
+      margin-top: 35vh;
+    }
+  }
+
+  .vision-journal-wrapper {
+    padding-left: 0;
+    padding: 0px 20px;
+
+    .titles-vision {
+      margin-top: 5vh;
+      line-height: 150%;
+    }
+  }
+
+  .container-image-hover-heading {
+    display: none;
+  }
+
+  .container-text-vision {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .wrapper-texts-wrapper {
+    margin-right: 0;
+    p {
+      width: 100%;
+    }
+  }
+}

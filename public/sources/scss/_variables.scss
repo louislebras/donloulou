@@ -1,6 +1,7 @@
 $background: #e4e1dc;
 $second-background: #dcd7d0;
-$line-color: #ccc6bd;
+$third-background: #c7c0b5;
+$line-color: #ccc6bd00;
 $type-color: #000;
 $second-type-color: #ffffff;
 $third-type-color: #8e8e8e;
@@ -12,3 +13,6 @@ $linear-dark-memoriae: linear-gradient(
   #0b0b0b 80.08%
 );
 $dot-info: red;
+$easeOut: cubic-bezier(0.08, 0.81, 0.51, 0.97);
+$easeInOut: cubic-bezier(1, 0.02, 0.51, 0.97);
+$short: 0.3s;

@@ -1,26 +1,83 @@
-@import "./fonts", "./footer", "./header", "./heading", "./nav", "./typography",
-  "./variables";
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-}
+@import "./reset", "./fonts", "./footer", "./header", "./heading", "./nav",
+  "./typography", "./variables", "./new-message", "./privateletters",
+  "./companies", "./links-end";
 
 html,
 body {
   width: 100%;
+}
+
+body {
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: $background;
   font-family: "Stamina";
-  position: relative;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  width: calc(100% - 20px);
+  width: calc(100% - 0px);
   //   border: 1px solid red;
   padding: 0px 10px 10px 10px;
   position: relative;
-  padding-bottom: 200vh;
+  //   padding-bottom: 200vh;
+  z-index: 0;
+}
+
+.divider {
+  width: calc(100vw);
+  margin-left: -10px;
+  height: 1px;
+  background-color: $line-color;
+  margin-top: 15%;
+}
+
+.button-new-message {
+  display: flex;
+  align-items: center;
+
+  .red-button {
+    width: 12px;
+    height: 12px;
+    background-color: $dot-info;
+    border-radius: 100px;
+  }
+  .h3 {
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.link-animated {
+  position: relative;
+  .background-link {
+    height: 0;
+    width: 100%;
+    background-color: $third-background;
+    z-index: -1;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    opacity: 0;
+    transition: $short $easeOut;
+  }
+  &:hover {
+    .background-link {
+      height: calc(100% + 20px);
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 100%;
+  }
+
+  .dividernone {
+    display: none;
+  }
 }

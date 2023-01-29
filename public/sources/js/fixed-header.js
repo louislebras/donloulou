@@ -1,4 +1,4 @@
-var limit = 0.6, //implies 40 vh or 40% of viewport height
+var limit = 0.35, //implies 40 vh or 40% of viewport height
   scrollLimit = 0;
 
 $(window)

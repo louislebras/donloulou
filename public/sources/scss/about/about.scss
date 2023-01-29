@@ -1,0 +1,33 @@
+.about-video-page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  video {
+    width: 35%;
+
+    border-radius: 4000px;
+  }
+}
+
+.heading-vision {
+  p {
+    margin-top: 20vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .heading-vision {
+    p {
+      margin-top: 3vh;
+    }
+  }
+
+  .about-video-page {
+    margin-top: 36vh;
+    video {
+      width: 90%;
+    }
+  }
+}

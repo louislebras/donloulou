@@ -1,0 +1,36 @@
+@import "./variables";
+
+.links-end {
+  margin-top: 20px;
+  margin-left: calc(8.33vw - 10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: calc(91.66vw - 10px);
+  //   border: 1px solid red;
+
+  p {
+    width: calc(50vw - 15px);
+    padding-right: 2vw;
+  }
+
+  .item-link {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .links-end {
+    margin-left: 0;
+    flex-direction: column;
+    width: 95%;
+    p {
+      width: 100%;
+      margin-top: 05vh;
+    }
+
+    .container-hover-loulou {
+      margin-left: 0;
+    }
+  }
+}

@@ -37,3 +37,14 @@ $(".link-openai").hover(
     );
   }
 );
+
+$(".link-memoriae").hover(
+  function () {
+    $(".container-img-links-heading").addClass("appear-image-heading-memoriae");
+  },
+  function () {
+    $(".container-img-links-heading").removeClass(
+      "appear-image-heading-memoriae"
+    );
+  }
+);
