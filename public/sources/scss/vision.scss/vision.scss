@@ -1,3 +1,5 @@
+@import "../variables";
+
 header {
   .second-header {
     opacity: 1;
@@ -24,7 +26,7 @@ header {
     margin-left: calc(50vw - 5px);
   }
 
-  img {
+  .img-vision {
     width: calc(100vw - 0px);
     margin-left: -10px;
     margin-top: 10px;
@@ -43,6 +45,7 @@ header {
 
     h2 {
       width: fit-content;
+      color: $type-color;
     }
 
     .second-vision-title {
@@ -96,7 +99,7 @@ header {
       width: 100%;
     }
 
-    img {
+    .img-vision {
       margin-top: 35vh;
     }
   }
