@@ -33,6 +33,10 @@ footer {
   bottom: 10px;
 }
 
+.links-end {
+  z-index: 10000;
+}
+
 @media (max-width: 800px) {
   .head-infos-contact {
     padding: 0;
