@@ -1,0 +1,5 @@
+# Netlify redirections.
+
+https://donloulou.fr/_ https://donloulou.com/:splat 301!
+http://donloulou.fr/_ https://donloulou.com/:splat 301!
+https://donloulou.netlify.app/* https://donloulou.com/:splat 301!
