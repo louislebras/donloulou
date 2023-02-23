@@ -46,10 +46,13 @@ header {
     h2 {
       width: fit-content;
       color: $type-color;
+      position: absolute;
+      
     }
 
     .second-vision-title {
-      width: calc(66.64vw - 15px);
+      width: calc(66.64vw - 10px);
+      padding-left: calc(25vw + 5px);
     }
   }
 }
